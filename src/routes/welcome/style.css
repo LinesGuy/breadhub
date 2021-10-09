@@ -1,0 +1,22 @@
+.welcome {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #C0C0C0;
+    color: black;
+}
+
+.welcomeHeader {
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: "MS Sans Serif";
+    text-align: center;
+}
+
+.textBox {
+    background-color: #FDFDEA;
+    border-color: #808080 #FFFFFF #FFFFFF #808080;
+    margin: 15px 10px 10px 10px;
+    padding: 20px 60px 20px 60px;
+    font-family: 'Times New Roman';
+}

@@ -1,0 +1,23 @@
+.icon {
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 112px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+.icon:hover {
+    border: 2px solid rgba(200, 200, 240, 0.6);
+    background-color: rgba(200, 200, 240, 0.3);
+}
+
+.iconText {
+    margin-top: 10px;
+    color: white;
+    font-family: "pixelmix";
+}

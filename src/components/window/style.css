@@ -1,0 +1,20 @@
+.window {
+    border: 2px solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    position: absolute;
+    background-color: #C0C0C0;
+}
+
+.windowHeader {
+    height: 20px;
+    background-color: #000080;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.windowIframe {
+    border: none;
+}
