@@ -19,7 +19,7 @@ const Window: FunctionalComponent<Props> = (props: Props) => {
   return (
     <div class={style.window} style={{width: width, height: height, left: x, top: y}}>
         <div class={style.windowHeader}>
-            <img src="https://breadhub.uk/static/images/interrogation_mark.png"/>Muh header
+            <img src="./assets/images/interrogation_mark.png"/>Muh header
         </div>
         <iframe src={props.iframeUrl} width="100%" height={height - 24} class={style.windowIframe}></iframe>
     </div>
